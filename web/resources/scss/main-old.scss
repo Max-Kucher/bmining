@@ -1,0 +1,23 @@
+@import "components/loader";
+
+.mobile-menu-view {
+    display: flex;
+    flex-flow: column nowrap;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    width: 100vh;
+    height: calc(100vh - 64px);
+    background-color: #2d3748;
+}
+
+.sidebar {
+    display: none;
+    flex-flow: column nowrap;
+    height: 100vh;
+    background-color: #1f2937;
+    width: 400px;
+}
+
+
+@import "media";

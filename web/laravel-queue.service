@@ -1,0 +1,19 @@
+# Wallet permissions changes using systemd
+# ----------------------------------
+#
+# /lib/systemd/system/queue.service
+#
+# run this command to enable service:
+# systemctl enable queue.service
+
+[Unit]
+Description=Wallets permissions changer
+
+[Service]
+User=www-data
+Group=www-data
+Restart=always
+ExecStart=/usr/bin/nohup /usr/bin/php /var/www/html/artisan queue:work --daemon
+
+[Install]
+WantedBy=multi-user.target
