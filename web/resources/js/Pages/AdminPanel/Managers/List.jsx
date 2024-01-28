@@ -27,7 +27,7 @@ import {useSelector} from "react-redux";
 import {selectToken} from "@/slices/userSlice";
 import apiRequest from "@/api/helper";
 import {useRouter} from "@/hooks/use-router";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 import {dashboardRoutes} from "@/routes/main";
 
 export default function List() {

@@ -1,6 +1,6 @@
 import {Avatar, Box, ListItemAvatar, ListItemText, Stack, SvgIcon, Typography} from "@mui/material";
 import {Person2} from "@mui/icons-material";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 
 export function UserTaskEvent({event, createdAt}) {
     const notificationContent = JSON.parse(event.content);

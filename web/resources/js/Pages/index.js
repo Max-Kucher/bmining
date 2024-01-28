@@ -1,4 +1,4 @@
-import { Seo } from '@/components/seo';
+import { Seo } from '@/Components/seo';
 import { usePageView } from '@/hooks/use-page-view';
 import { HomeCta } from '@/sections/home/home-cta';
 import { HomeFaqs } from '@/sections/home/home-faqs';

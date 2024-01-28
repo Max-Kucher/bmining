@@ -24,7 +24,7 @@ import {usePage} from "@inertiajs/react";
 import {useEffect, useRef, useState} from "react";
 import toast from "react-hot-toast";
 import {customer} from "@/api/customers/data";
-import {Scrollbar} from "@/components/scrollbar";
+import {Scrollbar} from "@/Components/scrollbar";
 import SimpleBar from "simplebar-react";
 import {getInitials} from "@/utils/get-initials";
 import {useSelector} from "react-redux";

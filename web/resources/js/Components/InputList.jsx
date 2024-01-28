@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import splitObject from "@/helpers/general";
+import splitObject from "@/api/helpers/general";
 
 export default function InputList({
                                       defaultValues, setValues = () => {

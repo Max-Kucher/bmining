@@ -1,4 +1,4 @@
-import Page from "@/pages/auth-demo/login/modern";
+import Page from "@/Pages/auth-demo/login/modern";
 import {Layout} from "@/layouts/auth/modern-layout";
 import LightWrapper from "@/Components/Wrappers/LIghtWrapper";
 

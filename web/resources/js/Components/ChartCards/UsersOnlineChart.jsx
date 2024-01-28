@@ -1,7 +1,7 @@
 import {useTheme} from "@mui/material/styles";
 import {Box, Button, Card, CardActions, CardContent, CardHeader, SvgIcon, Tooltip, Typography} from "@mui/material";
 import InfoCircleIcon from "@untitled-ui/icons-react/build/esm/InfoCircle";
-import {Chart} from "@/components/chart";
+import {Chart} from "@/Components/chart";
 import ArrowRightIcon from "@untitled-ui/icons-react/build/esm/ArrowRight";
 import numeral from "numeral";
 import {useMemo} from "react";

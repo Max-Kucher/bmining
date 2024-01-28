@@ -11,7 +11,7 @@ import {
     SvgIcon,
     Typography
 } from '@mui/material';
-import {RouterLink} from '@/components/router-link';
+import {RouterLink} from '@/Components/router-link';
 import {useDispatch} from "react-redux";
 import {logout} from "@/slices/userSlice";
 

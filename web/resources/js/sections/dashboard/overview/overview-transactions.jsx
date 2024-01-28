@@ -14,8 +14,8 @@ import {
   Tabs,
   Typography
 } from '@mui/material';
-import { Scrollbar } from '@/components/scrollbar';
-import { SeverityPill } from '@/components/severity-pill';
+import { Scrollbar } from '@/Components/scrollbar';
+import { SeverityPill } from '@/Components/severity-pill';
 
 const statusMap = {
   confirmed: 'success',

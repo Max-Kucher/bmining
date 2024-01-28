@@ -20,11 +20,11 @@ import {
     Typography
 } from '@mui/material';
 import {getInitials} from '@/utils/get-initials';
-import {SeverityPill} from "@/components/severity-pill";
+import {SeverityPill} from "@/Components/severity-pill";
 import {format, parseISO} from "date-fns";
 import AutocompleteInputAdd from "@/Components/Inputs/AutocompleteInputAdd";
 import {useState} from "react";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 
 export const UsersListTable = ({statuses = [], onFiltersChange, ...props}) => {
 

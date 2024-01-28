@@ -1,7 +1,7 @@
 import {useCallback, useEffect, useState} from 'react';
 import {subDays, subHours, subMinutes, subMonths} from 'date-fns';
 import {Box, Container, Divider, Stack, Tab, Tabs, Typography} from '@mui/material';
-import {Seo} from '@/components/seo';
+import {Seo} from '@/Components/seo';
 import {useMockedUser} from '@/hooks/use-mocked-user';
 import {usePageView} from '@/hooks/use-page-view';
 import {AccountBillingSettings} from '@/sections/dashboard/account/account-billing-settings';

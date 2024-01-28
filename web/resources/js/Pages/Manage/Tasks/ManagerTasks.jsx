@@ -11,8 +11,8 @@ import {useEffect, useState} from "react";
 import apiRequest from "@/api/helper";
 import toast from "react-hot-toast";
 import {Check, FileDownloadDoneRounded} from "@mui/icons-material";
-import {useResponseHandler} from "@/helpers/general";
-import {RouterLink} from "@/components/router-link";
+import {useResponseHandler} from "@/api/helpers/general";
+import {RouterLink} from "@/Components/router-link";
 
 export default function ManagerTasks() {
     const token = useSelector(selectToken);

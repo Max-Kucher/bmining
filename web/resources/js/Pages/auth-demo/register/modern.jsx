@@ -2,11 +2,11 @@ import ArrowLeftIcon from '@untitled-ui/icons-react/build/esm/ArrowLeft';
 import {
     Box, Button, Checkbox, FormHelperText, Link, Stack, SvgIcon, TextField, Typography
 } from '@mui/material';
-import {Seo} from '@/components/seo';
+import {Seo} from '@/Components/seo';
 import {useEffect} from "react";
 import {dashboardRoutes, mainRoutes} from "@/routes/main";
-import {RouterLink} from "@/components/router-link";
-import {useForm} from "@/helpers/general";
+import {RouterLink} from "@/Components/router-link";
+import {useForm} from "@/api/helpers/general";
 import {useDispatch} from "react-redux";
 import {login} from "@/slices/userSlice";
 import {useRouter} from "@/hooks/use-router";

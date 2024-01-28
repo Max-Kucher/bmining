@@ -19,7 +19,7 @@ import {
     Tooltip,
     Typography
 } from '@mui/material';
-import {Scrollbar} from '@/components/scrollbar';
+import {Scrollbar} from '@/Components/scrollbar';
 import {Bell01} from "@untitled-ui/icons-react";
 import EyeIcon from "@untitled-ui/icons-react/build/esm/Eye";
 import {PercentOutlined, Person2} from "@mui/icons-material";

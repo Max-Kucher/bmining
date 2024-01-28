@@ -18,8 +18,8 @@ import toast from "react-hot-toast";
 import {Edit01} from "@untitled-ui/icons-react";
 import {useSelector} from "react-redux";
 import {selectUser} from "@/slices/userSlice";
-import {RouterLink} from "@/components/router-link";
-import {useForm} from "@/helpers/general";
+import {RouterLink} from "@/Components/router-link";
+import {useForm} from "@/api/helpers/general";
 
 export const AccountSecuritySettings = (props) => {
     const [isEditing, setIsEditing] = useState(false);

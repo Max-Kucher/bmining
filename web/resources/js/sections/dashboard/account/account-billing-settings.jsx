@@ -21,8 +21,8 @@ import {
   Typography,
   Unstable_Grid2 as Grid
 } from '@mui/material';
-import { PropertyList } from '@/components/property-list';
-import { PropertyListItem } from '@/components/property-list-item';
+import { PropertyList } from '@/Components/property-list';
+import { PropertyListItem } from '@/Components/property-list-item';
 import { AccountPlanIcon } from './account-plan-icon';
 
 const plans = [

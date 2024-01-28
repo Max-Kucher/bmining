@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 import {useSelector} from "react-redux";
 import {selectToken} from "@/slices/userSlice";
 import apiRequest from "@/api/helper";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 
 export default function Settings({}) {
     const [settings, setSettings] = useState([]);

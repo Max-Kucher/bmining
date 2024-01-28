@@ -3,7 +3,7 @@ import numeral from 'numeral';
 import {
     Box, Card, CardHeader, Divider, Tab, Table, TableBody, TableCell, TableRow, Tabs, Typography
 } from '@mui/material';
-import {SeverityPill} from '@/components/severity-pill';
+import {SeverityPill} from '@/Components/severity-pill';
 import {Link} from "react-router-dom";
 
 const statusMap = {

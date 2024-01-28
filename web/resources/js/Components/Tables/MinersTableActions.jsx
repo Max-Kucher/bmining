@@ -8,7 +8,7 @@ import {
 } from '@mui/material';
 import {usePopover} from "@/hooks/use-popover";
 import {Add} from "@mui/icons-material";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 import {dashboardRoutes} from "@/routes/main";
 
 export const MinersTableActions = ({userId = null, user = null, ...props}) => {

@@ -2,7 +2,7 @@ import React, {useEffect, useRef, useState} from "react";
 import QrCreator from "qr-creator";
 import {useTheme} from "@mui/material/styles";
 import {Box, Divider, FormHelperText, Grid, List, ListItem, Stack, TextField, Typography} from "@mui/material";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 import toast from "react-hot-toast";
 import {useRouter} from "@/hooks/use-router";
 import {dashboardRoutes, mainRoutes} from "@/routes/main";

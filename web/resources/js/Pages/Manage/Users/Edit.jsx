@@ -11,7 +11,7 @@ import {Seo} from "@/Components/Wrappers/Seo";
 import {useSelector} from "react-redux";
 import {selectToken} from "@/slices/userSlice";
 import {useParams} from "react-router";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 
 const useCustomer = () => {
     const isMounted = useMounted();

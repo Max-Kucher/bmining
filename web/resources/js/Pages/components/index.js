@@ -10,8 +10,8 @@ import {
   Unstable_Grid2 as Grid
 } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { RouterLink } from '@/components/router-link';
-import { Seo } from '@/components/seo';
+import { RouterLink } from '@/Components/router-link';
+import { Seo } from '@/Components/seo';
 import { usePageView } from '@/hooks/use-page-view';
 import { paths } from '@/paths';
 

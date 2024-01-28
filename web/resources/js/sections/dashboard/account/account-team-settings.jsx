@@ -20,8 +20,8 @@ import {
   Typography,
   Unstable_Grid2 as Grid
 } from '@mui/material';
-import { Scrollbar } from '@/components/scrollbar';
-import { SeverityPill } from '@/components/severity-pill';
+import { Scrollbar } from '@/Components/scrollbar';
+import { SeverityPill } from '@/Components/severity-pill';
 
 export const AccountTeamSettings = (props) => {
   const { members } = props;

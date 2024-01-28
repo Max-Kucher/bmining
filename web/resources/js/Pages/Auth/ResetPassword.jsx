@@ -1,11 +1,11 @@
 import {useEffect} from 'react';
 import {Seo} from "@/Components/Wrappers/Seo";
 import {Box, Button, FormHelperText, Link, Stack, SvgIcon, TextField, Typography} from "@mui/material";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 import {paths} from "@/paths";
 import ArrowLeftIcon from "@untitled-ui/icons-react/build/esm/ArrowLeft";
 import {Layout} from "@/layouts/auth/modern-layout";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 import {useParams} from "react-router";
 import toast from "react-hot-toast";
 import {useRouter} from "@/hooks/use-router";

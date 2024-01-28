@@ -12,11 +12,11 @@ import {
     Tooltip,
     Typography
 } from '@mui/material';
-import {Scrollbar} from '@/components/scrollbar';
+import {Scrollbar} from '@/Components/scrollbar';
 import {Check, FileDownloadDoneRounded} from "@mui/icons-material";
 import {useSelector} from "react-redux";
 import {selectUser} from "@/slices/userSlice";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 
 export function TaskItem({event, createdAt}) {
     const user = useSelector(selectUser)

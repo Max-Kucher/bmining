@@ -16,7 +16,7 @@ import {useContext, useState} from "react";
 import {MinersTableActions} from "@/Components/Tables/MinersTableActions";
 import {Edit} from "@mui/icons-material";
 import {Link} from "react-router-dom";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 
 const now = new Date();
 

@@ -18,14 +18,14 @@ import {
     TextField,
     Typography
 } from '@mui/material';
-import {Tip} from '@/components/tip';
+import {Tip} from '@/Components/tip';
 import {manageUserApi} from "@/api/apiMain/manageUsersApi";
 import {getInitials} from "@/utils/get-initials";
 import {format, parseISO} from "date-fns";
 import {OnlyManagerContent} from "@/Components/Wrappers/Permissions/ManagerContent";
 import {useSelector} from "react-redux";
 import {selectToken} from "@/slices/userSlice";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 
 export const SearchDialog = (props) => {
     const {onClose, open = false, ...other} = props;

@@ -1,5 +1,5 @@
 import { Box, Container, Stack } from '@mui/material';
-import { Seo } from '@/components/seo';
+import { Seo } from '@/Components/seo';
 import { usePageView } from '@/hooks/use-page-view';
 import { Previewer } from '@/sections/components/previewer';
 import { QuickStats1 } from '@/sections/components/quick-stats/quick-stats-1';

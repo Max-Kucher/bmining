@@ -3,7 +3,7 @@ import ReceiptIcon from '@untitled-ui/icons-react/build/esm/Receipt';
 import {
     Box, Button, Card, CardHeader, Divider, Stack, SvgIcon, Table, TableBody, TableCell, TableRow, Typography
 } from '@mui/material';
-import {SeverityPill} from "@/components/severity-pill";
+import {SeverityPill} from "@/Components/severity-pill";
 import {useMemo} from "react";
 import {format, parseISO} from "date-fns";
 

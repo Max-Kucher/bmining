@@ -4,7 +4,7 @@ import {
 import MenuItem from "@mui/material/MenuItem";
 import {useEffect} from "react";
 import toast from "react-hot-toast";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 
 export default function AddMinerForm({tariffs, user, editMode = false, miner = null}) {
     const {data, setData, patch, errors, processing, recentlySuccessful, nowSuccessful} = useForm({

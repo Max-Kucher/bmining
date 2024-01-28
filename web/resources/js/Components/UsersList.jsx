@@ -10,9 +10,9 @@ import {Verified, GppMaybe} from "@mui/icons-material";
 import {useSelector} from "react-redux";
 import {selectToken} from "@/slices/userSlice";
 import apiRequest from "@/api/helper";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 import {Link} from "react-router-dom";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 
 export default function UsersList() {
     const [data, setData] = useState([]);

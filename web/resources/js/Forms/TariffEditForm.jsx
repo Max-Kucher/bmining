@@ -2,7 +2,7 @@ import {Alert, Button, FormControlLabel, Stack, Switch, TextField} from "@mui/ma
 import {useEffect, useState} from "react";
 import SuccessSavedAlert from "@/Components/SuccessSavedAlert";
 import {SaveBtn} from "@/Components/SaveBtn";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 
 export default function TariffEditForm({tariff}) {
 

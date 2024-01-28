@@ -1,5 +1,5 @@
 import { Box, Container } from '@mui/material';
-import { Seo } from '@/components/seo';
+import { Seo } from '@/Components/seo';
 import { usePageView } from '@/hooks/use-page-view';
 import { Previewer } from '@/sections/components/previewer';
 import { Typography1 } from '@/sections/components/typography/typography-1';

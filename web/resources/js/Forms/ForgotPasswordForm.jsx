@@ -1,9 +1,9 @@
 import ArrowLeftIcon from '@untitled-ui/icons-react/build/esm/ArrowLeft';
 import {Box, Button, Link, Stack, SvgIcon, TextField, Typography} from '@mui/material';
-import {Seo} from '@/components/seo';
+import {Seo} from '@/Components/seo';
 import {mainRoutes} from "@/routes/main";
-import {RouterLink} from "@/components/router-link";
-import {useForm} from "@/helpers/general";
+import {RouterLink} from "@/Components/router-link";
+import {useForm} from "@/api/helpers/general";
 import {useEffect, useState} from "react";
 import toast from "react-hot-toast";
 

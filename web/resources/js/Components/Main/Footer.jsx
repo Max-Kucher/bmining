@@ -1,6 +1,6 @@
 import WidthWrapper from "@/Components/Main/WidthWrapper";
 import {Box, Button, Divider, Grid, Link, Stack, Typography, useMediaQuery} from "@mui/material";
-import {Logo} from "@/components/logo";
+import {Logo} from "@/Components/logo";
 import {LogoTrans} from "@/Components/Main/LogoTrans";
 import {CommonLink} from "@/Components/Main/CommonLink";
 import {LanguageSwitch} from "@/layouts/dashboard/language-switch";

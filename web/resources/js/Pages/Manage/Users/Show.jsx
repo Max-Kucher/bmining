@@ -5,7 +5,7 @@ import {
     Avatar, Box, Button, Chip, Container, Divider, Stack, SvgIcon, Tab, Tabs, Typography, Unstable_Grid2 as Grid
 } from '@mui/material';
 import {Link} from '@inertiajs/react'
-import {Seo} from '@/components/seo';
+import {Seo} from '@/Components/seo';
 import {useMounted} from '@/hooks/use-mounted';
 import {usePageView} from '@/hooks/use-page-view';
 import {CustomerBasicDetails} from "@/Pages/Manage/Users/Parts/CustomerBasicDetails";
@@ -22,7 +22,7 @@ import BlockWrapper from "@/Components/Wrappers/BlockWrapper";
 import {useSelector} from "react-redux";
 import {selectPermissions, selectToken} from "@/slices/userSlice";
 import {useParams} from "react-router";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 import toast from "react-hot-toast";
 import {NotAllowed} from "@/Components/NotAllowed";
 import {WithdrawalsTab} from "@/Pages/Manage/Users/Tabs/WithdrawalsTab";

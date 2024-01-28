@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import {Stack, TextField, Typography} from "@mui/material";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 import {useRouter} from "@/hooks/use-router";
 import toast from "react-hot-toast";
 import {dashboardRoutes} from "@/routes/main";

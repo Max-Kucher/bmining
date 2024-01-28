@@ -1,7 +1,7 @@
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { Button, Card, CardContent, CardHeader, FormHelperText, TextField } from '@mui/material';
-import { Seo } from '@/components/seo';
+import { Seo } from '@/Components/seo';
 import { useAuth } from '@/hooks/use-auth';
 import { useMounted } from '@/hooks/use-mounted';
 import { usePageView } from '@/hooks/use-page-view';

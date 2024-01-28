@@ -2,7 +2,7 @@ import {useTheme} from "@mui/material/styles";
 import {useMediaQuery} from "@mui/material";
 import {Link} from "react-router-dom";
 import {mainRoutes} from "@/routes/main";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 
 export function LogoTrans() {
     const theme = useTheme();

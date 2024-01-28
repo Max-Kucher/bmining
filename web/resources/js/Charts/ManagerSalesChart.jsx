@@ -1,6 +1,6 @@
 import {useTheme} from "@mui/material/styles";
 import {Box, Grid, Typography} from "@mui/material";
-import {Chart} from "@/components/chart";
+import {Chart} from "@/Components/chart";
 import numeral from "numeral";
 import {useEffect, useState} from "react";
 

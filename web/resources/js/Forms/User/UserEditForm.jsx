@@ -10,7 +10,7 @@ import SuccessSavedAlert from "@/Components/SuccessSavedAlert";
 import {SaveBtn} from "@/Components/SaveBtn";
 import {Percent} from "@mui/icons-material";
 import BlockWrapper from "@/Components/Wrappers/BlockWrapper";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 import {useEffect} from "react";
 
 export default function UserEditForm({user, roles}) {

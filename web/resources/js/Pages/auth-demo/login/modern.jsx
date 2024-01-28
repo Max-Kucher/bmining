@@ -1,9 +1,9 @@
 import ArrowLeftIcon from '@untitled-ui/icons-react/build/esm/ArrowLeft';
 import {Box, Button, Link, Stack, SvgIcon, TextField, Typography} from '@mui/material';
-import {Seo} from '@/components/seo';
+import {Seo} from '@/Components/seo';
 import {useEffect, useState} from "react";
-import {axiosErrorsCfg, useForm} from "@/helpers/general";
-import {RouterLink} from "@/components/router-link";
+import {axiosErrorsCfg, useForm} from "@/api/helpers/general";
+import {RouterLink} from "@/Components/router-link";
 import {mainRoutes} from "@/routes/main";
 
 import {login, selectAuth, selectUser} from "@/slices/userSlice";

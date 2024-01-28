@@ -15,8 +15,8 @@ import {
   TextField,
   Typography
 } from '@mui/material';
-import { RouterLink } from '@/components/router-link';
-import { Seo } from '@/components/seo';
+import { RouterLink } from '@/Components/router-link';
+import { Seo } from '@/Components/seo';
 import { paths } from '@/paths';
 
 const initialValues = {

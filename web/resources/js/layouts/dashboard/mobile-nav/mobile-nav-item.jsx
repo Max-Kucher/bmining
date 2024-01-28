@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ChevronDownIcon from '@untitled-ui/icons-react/build/esm/ChevronDown';
 import ChevronRightIcon from '@untitled-ui/icons-react/build/esm/ChevronRight';
 import {Box, ButtonBase, Collapse, SvgIcon} from '@mui/material';
-import {RouterLink} from '@/components/router-link';
+import {RouterLink} from '@/Components/router-link';
 import {useTheme} from "@mui/material/styles";
 
 export const MobileNavItem = (props) => {

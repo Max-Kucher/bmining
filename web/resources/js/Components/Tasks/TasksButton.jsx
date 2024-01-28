@@ -8,7 +8,7 @@ import {selectToken} from "@/slices/userSlice";
 import apiRequest from "@/api/helper";
 import {AssignmentInd, PlaylistAdd, TaskAlt} from "@mui/icons-material";
 import {TasksPopover} from "@/Components/Tasks/TasksPopover";
-import {useResponseHandler} from "@/helpers/general";
+import {useResponseHandler} from "@/api/helpers/general";
 
 const useNotifications = () => {
     const [notifications, setNotifications] = useState([]);

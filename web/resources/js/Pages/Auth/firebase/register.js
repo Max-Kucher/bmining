@@ -15,8 +15,8 @@ import {
   TextField,
   Typography
 } from '@mui/material';
-import { RouterLink } from '@/components/router-link';
-import { Seo } from '@/components/seo';
+import { RouterLink } from '@/Components/router-link';
+import { Seo } from '@/Components/seo';
 import { useAuth } from '@/hooks/use-auth';
 import { useMounted } from '@/hooks/use-mounted';
 import { usePageView } from '@/hooks/use-page-view';

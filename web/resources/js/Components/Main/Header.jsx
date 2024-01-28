@@ -9,7 +9,7 @@ import {MenuOutlined} from "@mui/icons-material";
 import {useState} from "react";
 import {selectAuth, selectUser} from "@/slices/userSlice";
 import {useDispatch, useSelector} from "react-redux";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 import {Link} from "react-router-dom";
 import {mainRoutes} from "@/routes/main";
 

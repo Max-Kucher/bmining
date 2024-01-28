@@ -1,6 +1,6 @@
 import {Box, Button, Container, Typography, useMediaQuery} from '@mui/material';
-import {RouterLink} from '@/components/router-link';
-import {Seo} from '@/components/seo';
+import {RouterLink} from '@/Components/router-link';
+import {Seo} from '@/Components/seo';
 import {usePageView} from '@/hooks/use-page-view';
 import {mainRoutes} from "@/routes/main";
 

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import File04Icon from '@untitled-ui/icons-react/build/esm/File04';
 import {Box, Button, Drawer, Stack, SvgIcon, Typography} from '@mui/material';
 import {alpha, useTheme} from '@mui/material/styles';
-import {Logo} from '@/components/logo';
+import {Logo} from '@/Components/logo';
 import {SideNavSection} from './side-nav-section';
 import {Link, usePage} from "@inertiajs/react";
 import {useSettings} from "@/hooks/use-settings";

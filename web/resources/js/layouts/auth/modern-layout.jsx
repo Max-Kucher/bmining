@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import {Box, Stack} from '@mui/material';
-import {Logo} from '@/components/logo';
+import {Logo} from '@/Components/logo';
 import {alpha, useTheme} from "@mui/material/styles";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 import {mainRoutes} from "@/routes/main";
 
 export const Layout = (props) => {

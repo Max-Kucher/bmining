@@ -1,7 +1,7 @@
 import {Alert, Button, Stack, TextField} from "@mui/material";
 import SuccessSavedAlert from "@/Components/SuccessSavedAlert";
 import {SaveBtn} from "@/Components/SaveBtn";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 
 export default function TariffCreateForm({tariff}) {
 

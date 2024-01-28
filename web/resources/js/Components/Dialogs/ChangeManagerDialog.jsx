@@ -5,7 +5,7 @@ import {
 import {useEffect, useState} from "react";
 import toast from "react-hot-toast";
 import {customer} from "@/api/customers/data";
-import {axiosErrorsCfg} from "@/helpers/general";
+import {axiosErrorsCfg} from "@/api/helpers/general";
 import MenuItem from "@mui/material/MenuItem";
 import {useSelector} from "react-redux";
 import {selectToken} from "@/slices/userSlice";

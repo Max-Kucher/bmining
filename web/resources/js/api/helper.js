@@ -1,7 +1,7 @@
 import {useSelector} from "react-redux";
 import {selectToken, selectUser} from "@/slices/userSlice";
 import {useMemo, useState} from "react";
-import {axiosErrorsCfg} from "@/helpers/general";
+import {axiosErrorsCfg} from "@/api/helpers/general";
 import toast from "react-hot-toast";
 
 

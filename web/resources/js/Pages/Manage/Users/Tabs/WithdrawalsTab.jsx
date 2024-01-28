@@ -3,7 +3,7 @@ import {useApiRequest} from "@/api/helper";
 import React, {useEffect, useState} from "react";
 import {useSelector} from "react-redux";
 import {selectUser} from "@/slices/userSlice";
-import {SeverityPill} from "@/components/severity-pill";
+import {SeverityPill} from "@/Components/severity-pill";
 
 export function WithdrawalsTab({targetUser}) {
     const [withdrawals, setWithdrawals] = useState([]);

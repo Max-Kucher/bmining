@@ -12,7 +12,7 @@ import {selectToken} from "@/slices/userSlice";
 import apiRequest from "@/api/helper";
 import {Link} from "react-router-dom";
 import {adminRoutes} from "@/routes/main";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 
 export default function TariffList() {
     const [data, setData] = useState([]);

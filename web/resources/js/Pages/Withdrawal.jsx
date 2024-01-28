@@ -21,11 +21,11 @@ import {useDispatch, useSelector} from "react-redux";
 import {selectUser, selectUserBalance} from "@/slices/userSlice";
 import {selectBtcRate, updateBtc} from "@/slices/currencyRateSlice";
 import apiRequest, {useApiRequest} from "@/api/helper";
-import {useForm, useResponseHandler} from "@/helpers/general";
+import {useForm, useResponseHandler} from "@/api/helpers/general";
 import {WithdrawalList} from "@/Components/Withdrawal/WithdrawalList";
 import {Seo} from "@/Components/Wrappers/Seo";
 import toast from "react-hot-toast";
-import {SeverityPill} from "@/components/severity-pill";
+import {SeverityPill} from "@/Components/severity-pill";
 
 const tabs = [{label: 'To your bank account', value: 'bank'}, {label: 'To your btc wallet', value: 'btc'},];
 

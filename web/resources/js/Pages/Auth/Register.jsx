@@ -1,4 +1,4 @@
-import Page from "@/pages/auth-demo/register/modern";
+import Page from "@/Pages/auth-demo/register/modern";
 import {Layout} from "@/layouts/auth/modern-layout";
 import {useSelector} from "react-redux";
 import {selectAuth} from "@/slices/userSlice";

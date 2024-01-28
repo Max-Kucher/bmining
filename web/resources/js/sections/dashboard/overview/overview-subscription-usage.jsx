@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Box, Card, CardHeader, Tab, Tabs } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { Chart } from '@/components/chart';
+import { Chart } from '@/Components/chart';
 
 const useChartOptions = () => {
   const theme = useTheme();

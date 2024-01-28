@@ -11,8 +11,8 @@ import {
   Typography
 } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import { BreadcrumbsSeparator } from '@/components/breadcrumbs-separator';
-import { RouterLink } from '@/components/router-link';
+import { BreadcrumbsSeparator } from '@/Components/breadcrumbs-separator';
+import { RouterLink } from '@/Components/router-link';
 import { paths } from '@/paths';
 
 const LayoutRoot = styled('div')(({ theme }) => ({

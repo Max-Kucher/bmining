@@ -14,7 +14,7 @@ import {
 import {format, parseISO} from "date-fns";
 import numeral from "numeral";
 import {Link} from "react-router-dom";
-import {SeverityPill} from "@/components/severity-pill";
+import {SeverityPill} from "@/Components/severity-pill";
 import {useApiRequest} from "@/api/helper";
 import React, {useEffect} from "react";
 

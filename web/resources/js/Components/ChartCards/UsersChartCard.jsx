@@ -1,5 +1,5 @@
 import {Box, Card, CardContent, CardHeader, Typography} from "@mui/material";
-import {Chart} from "@/components/chart";
+import {Chart} from "@/Components/chart";
 import numeral from "numeral";
 import {useTheme} from "@mui/material/styles";
 import {usePage} from "@inertiajs/react";

@@ -4,7 +4,7 @@ import {
     Box, Card, CardContent, CardHeader, Stack, Typography, useMediaQuery
 } from '@mui/material';
 import {useTheme} from '@mui/material/styles';
-import {Chart} from '@/components/chart';
+import {Chart} from '@/Components/chart';
 import {useEffect, useMemo, useState} from "react";
 
 const useChartOptions = (labels, miners) => {

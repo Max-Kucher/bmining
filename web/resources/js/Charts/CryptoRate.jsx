@@ -1,6 +1,6 @@
 import {Box, Card, CardContent, CardHeader} from '@mui/material';
 import {useTheme} from '@mui/material/styles';
-import {Chart} from "@/components/chart";
+import {Chart} from "@/Components/chart";
 import {useContext, useState} from "react";
 import {MinerContext} from "@/contexts/minerContext";
 

@@ -1,6 +1,6 @@
 import {Box, Stack, SvgIcon, Typography} from "@mui/material";
 import ArrowLeftIcon from "@untitled-ui/icons-react/build/esm/ArrowLeft";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 import {useRouter} from "@/hooks/use-router";
 
 export function TitleNav({title, linkTitle, href = null}) {

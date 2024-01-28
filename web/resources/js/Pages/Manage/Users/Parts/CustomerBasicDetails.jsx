@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import {Button, Card, CardActions, CardHeader} from '@mui/material';
-import {PropertyList} from '@/components/property-list';
-import {PropertyListItem} from '@/components/property-list-item';
+import {PropertyList} from '@/Components/property-list';
+import {PropertyListItem} from '@/Components/property-list-item';
 import AutocompleteInputAdd from "@/Components/Inputs/AutocompleteInputAdd";
 import {useForm} from "@inertiajs/react";
 import {useEffect, useState} from "react";

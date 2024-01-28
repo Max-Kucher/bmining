@@ -4,7 +4,7 @@ import {Email} from "@mui/icons-material";
 import {Button, Container, Grid, Stack, Typography} from "@mui/material";
 import {useTheme} from "@mui/material/styles";
 import PageWrapper from "@/Components/Wrappers/PageWrapper";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 import {useDispatch} from "react-redux";
 import {logout} from "@/slices/userSlice";
 import toast from "react-hot-toast";

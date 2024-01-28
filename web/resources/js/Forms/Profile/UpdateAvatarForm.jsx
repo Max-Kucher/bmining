@@ -3,7 +3,7 @@ import {alpha} from "@mui/material/styles";
 import Camera01Icon from "@untitled-ui/icons-react/build/esm/Camera01";
 import User01Icon from "@untitled-ui/icons-react/build/esm/User01";
 import {useEffect} from "react";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 import {updateAvatar} from "@/slices/userSlice";
 import toast from 'react-hot-toast';
 import {useDispatch} from "react-redux";

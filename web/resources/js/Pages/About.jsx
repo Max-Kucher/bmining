@@ -10,7 +10,7 @@ import {FmdGoodOutlined, MailOutline, WbIncandescentOutlined} from "@mui/icons-m
 import {useSettings} from "@/hooks/use-settings";
 import {Seo} from "@/Components/Wrappers/Seo";
 import LightWrapper from "@/Components/Wrappers/LIghtWrapper";
-import {convertTZ} from "@/helpers/general";
+import {convertTZ} from "@/api/helpers/general";
 import {useEffect, useState} from "react";
 
 const iconedPaperStyle = {

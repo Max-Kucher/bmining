@@ -1,5 +1,5 @@
 import { Box, Container, Stack } from '@mui/material';
-import { Seo } from '@/components/seo';
+import { Seo } from '@/Components/seo';
 import { usePageView } from '@/hooks/use-page-view';
 import { Previewer } from '@/sections/components/previewer';
 import { GridList1 } from '@/sections/components/grid-lists/grid-list-1';

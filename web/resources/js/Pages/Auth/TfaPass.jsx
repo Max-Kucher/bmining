@@ -1,11 +1,11 @@
 import {useEffect} from "react";
 import {Layout} from "@/layouts/auth/modern-layout";
 import {Seo} from "@/Components/Wrappers/Seo";
-import {RouterLink} from "@/components/router-link";
+import {RouterLink} from "@/Components/router-link";
 import {Button, FormLabel, SvgIcon, Typography, Stack, FormControl, FormHelperText, Link} from "@mui/material";
 import ArrowLeftIcon from "@untitled-ui/icons-react/build/esm/ArrowLeft";
 import {MuiOtpInput} from "mui-one-time-password-input";
-import {useForm} from "@/helpers/general";
+import {useForm} from "@/api/helpers/general";
 import {dashboardRoutes, mainRoutes} from "@/routes/main";
 import {useDispatch} from "react-redux";
 import {passTfa} from "@/slices/userSlice";

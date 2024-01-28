@@ -1,4 +1,4 @@
-import Page from "@/pages/dashboard/account";
+import Page from "@/Pages/dashboard/account";
 import {Seo} from "@/Components/Wrappers/Seo";
 
 export default function Settings({auth}) {
