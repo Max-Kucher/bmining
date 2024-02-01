@@ -1,8 +1,8 @@
 
-const PlansSection = () => {
+const PlansSection = ({plansRef}) => {
     return (
         <>
-            <section className="money">
+            <section ref={plansRef} className="money">
                 <h2><span className="blue">Our Investment</span> Plans </h2>
                 <div className="money-top">
                     <div className="card">
@@ -26,8 +26,8 @@ const PlansSection = () => {
                                 <linearGradient id="paint0_linear_97_13" x1="169.116" y1="2.83386" x2="5.67735"
                                                 y2="2.83386"
                                                 gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="white"/>
-                                    <stop offset="0.661839" stop-color="#7E93FF"/>
+                                    <stop stopColor="white"/>
+                                    <stop offset="0.661839" stopColor="#7E93FF"/>
                                 </linearGradient>
                             </defs>
                         </svg>
@@ -71,8 +71,8 @@ const PlansSection = () => {
                                 <linearGradient id="paint0_linear_97_13" x1="169.116" y1="2.83386" x2="5.67735"
                                                 y2="2.83386"
                                                 gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="white"/>
-                                    <stop offset="0.661839" stop-color="#7E93FF"/>
+                                    <stop stopColor="white"/>
+                                    <stop offset="0.661839" stopColor="#7E93FF"/>
                                 </linearGradient>
                             </defs>
                         </svg>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const StepsSection = () => {
+const StepsSection = ({calcRef}) => {
     const [rangeValue, setRangeValue] = React.useState(0);
     const [checkBonus, setCheckBonus] = React.useState(false);
 
@@ -46,7 +46,7 @@ const StepsSection = () => {
                     </div>
                     <button className="btn">Invest in Your Dreams</button>
                 </div>
-                <div className="second-bottom">
+                <div ref={calcRef} className="second-bottom">
                     <h2>How much <span className="blue">will I gain?</span></h2>
                     <div className="sliders">
                         <div className="sliders-left">
@@ -60,7 +60,7 @@ const StepsSection = () => {
                                     </div>
                                     <div className="valutes">
                                         <p>BTC</p>
-                                        <input type="number" id="result-input" min="0" max="0.2300" value={(rangeValue * 0.000023).toFixed(4) > 0.2300 ? 0.2300 : (rangeValue * 0.000023).toFixed(4)}/>
+                                        <input readOnly type="number" id="result-input" min="0" max="0.2300" value={(rangeValue * 0.000023).toFixed(4) > 0.2300 ? 0.2300 : (rangeValue * 0.000023).toFixed(4)}/>
                                     </div>
                                 </div>
                                 <div className="">

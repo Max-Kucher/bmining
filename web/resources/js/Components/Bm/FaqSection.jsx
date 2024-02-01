@@ -35,7 +35,7 @@ const faqList = [
     },
 ]
 
-const FaqSection = () => {
+const FaqSection = ({faqRef}) => {
     const [openFaq, setOpenFaq] = React.useState(Array(faqList.length).fill(false));
     const [openFaqSec, setOpenFaqSec] = React.useState(Array(faqList.length).fill(false));
 
@@ -53,7 +53,7 @@ const FaqSection = () => {
 
     return (
         <>
-            <section className="qa" id="qa">
+            <section ref={faqRef} className="qa" id="qa">
                 <h2 className="blue">FAQ</h2>
                 <div className="table">
                     <div className="table-half">

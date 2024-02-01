@@ -1,26 +1,26 @@
 import React from "react";
 
-const BmHeader = () => {
+const BmHeader = ({scrollToBlock, homeRef, calcRef, plansRef, faqRef}) => {
     const [showModal, setShowModal] = React.useState(false);
 
     return (
         <>
-            <div onClick={() => setShowModal(false)} className={`${showModal ? "modal-active" : ""} modal`} id="myModal">
+            <div ref={homeRef} onClick={() => setShowModal(false)} className={`${showModal ? "modal-active" : ""} modal`} id="myModal">
                 <div onClick={(e) => e.stopPropagation()} className="modal-content">
                     <span onClick={() => setShowModal(false)} className="close" id="closeModalBtn">&times;</span>
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a onClick={() => scrollToBlock(homeRef)} href="#">Home</a>
                             </li>
                             <li>
-                                <a href="#">Сalculator</a>
+                                <a onClick={() => scrollToBlock(calcRef)} href="#">Сalculator</a>
                             </li>
                             <li>
-                                <a href="#">Сontacts</a>
+                                <a onClick={() => scrollToBlock(plansRef)} href="#">Сontacts</a>
                             </li>
                             <li>
-                                <a href="#">FAQ</a>
+                                <a onClick={() => scrollToBlock(faqRef)} href="#">FAQ</a>
                             </li>
                         </ul>
                     </nav>
@@ -39,16 +39,16 @@ const BmHeader = () => {
                 <nav className="navv">
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <a onClick={() => scrollToBlock(homeRef)} href="#">Home</a>
                         </li>
                         <li>
-                            <a href="#">Сalculator</a>
+                            <a onClick={() => scrollToBlock(calcRef)} href="#">Сalculator</a>
                         </li>
                         <li>
-                            <a href="#">Сontacts</a>
+                            <a onClick={() => scrollToBlock(plansRef)} href="#">Сontacts</a>
                         </li>
                         <li>
-                            <a href="#">FAQ</a>
+                            <a onClick={() => scrollToBlock(faqRef)} href="#">FAQ</a>
                         </li>
                     </ul>
                 </nav>

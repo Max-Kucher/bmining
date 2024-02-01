@@ -88,6 +88,10 @@ export default function Main(props) {
 export function PageComponent({tariffs, hashRate}) {
 
     const theme = useTheme();
+    const homeRef = React.useRef(null);
+    const calcRef = React.useRef(null);
+    const plansRef = React.useRef(null);
+    const faqRef = React.useRef(null);
     const isMdScreen = useMediaQuery(theme.breakpoints.down('lg'));
     const paperStyles = {
         minWidth: '16.875rem',
@@ -98,16 +102,25 @@ export function PageComponent({tariffs, hashRate}) {
         borderRadius: 2,
     };
 
+    const scrollToBlock = (ref) => {
+        if (ref && ref.current) {
+            ref.current.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+    };
+
     return (
         <>
-            <div class="container">
-                <BmHeader/>
+            <div className="container">
+                <BmHeader homeRef={homeRef} scrollToBlock={scrollToBlock} calcRef={calcRef} plansRef={plansRef} faqRef={faqRef}/>
                 <MainSection/>
-                <StepsSection />
+                <StepsSection calcRef={calcRef} />
                 <StoriesSection/>
                 <AdvantagesSection/>
-                <PlansSection/>
-                <FaqSection/>
+                <PlansSection plansRef={plansRef}/>
+                <FaqSection faqRef={faqRef} />
                 <BmFooter/>
             </div>
         </>
