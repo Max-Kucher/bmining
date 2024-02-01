@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="77.246.104.8" id="fa4a1e08-e43c-4316-a5c8-40d17fd1daa5" port="22" customName="bmining" nameFormat="CUSTOM" username="root" useOpenSSHConfig="true">
+        <option name="customName" value="bmining" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

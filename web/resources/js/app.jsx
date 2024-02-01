@@ -68,6 +68,9 @@ import {Privacy} from "@/Pages/Privacy";
 import {Withdrawal} from "@/Pages/Withdrawal";
 import {Stack} from "@mui/material";
 
+import "../css/reset.css";
+import "../css/app.css";
+
 const route = (routeName, additionalData = null) => {
     if (routes.routes[routeName] ?? false) {
         if (additionalData != null) {

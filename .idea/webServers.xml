@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6ebf4271-d9fd-459a-9046-54d14c7e3f31" name="bmining">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="77.246.104.8" port="22" sshConfigId="fa4a1e08-e43c-4316-a5c8-40d17fd1daa5" sshConfig="bmining">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
