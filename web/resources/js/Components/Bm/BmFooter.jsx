@@ -1,5 +1,5 @@
 
-const BmFooter = () => {
+const BmFooter = ({scrollToBlock, plansRef}) => {
     return (
         <>
             <footer className="footer">
@@ -19,7 +19,7 @@ const BmFooter = () => {
                             <li>
                                 <h3>HELP</h3>
                             </li>
-                            <li><a href="#">Contacts</a></li>
+                            <li><a onClick={() => scrollToBlock(plansRef)} href="#">Contacts</a></li>
                             <li><a href="#">Support</a></li>
                         </ul>
                         <ul>
@@ -38,7 +38,7 @@ const BmFooter = () => {
                             <li>
                                 <h3>HELP</h3>
                             </li>
-                            <li><a href="#">Contacts</a></li>
+                            <li><a onClick={() => scrollToBlock(plansRef)} href="#">Contacts</a></li>
                             <li><a href="#">Support</a></li>
                         </ul>
                         <ul>

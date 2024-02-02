@@ -60,7 +60,7 @@ function FadeInOnScroll({children, duration = 400, ...props}) {
         <div>
             <Fade in={trigger} timeout={duration}>
                 <div>
-                    {children}
+                    {children} 
                 </div>
             </Fade>
         </div>
@@ -121,7 +121,7 @@ export function PageComponent({tariffs, hashRate}) {
                 <AdvantagesSection/>
                 <PlansSection plansRef={plansRef}/>
                 <FaqSection faqRef={faqRef} />
-                <BmFooter/>
+                <BmFooter scrollToBlock={scrollToBlock} plansRef={plansRef}/>
             </div>
         </>
     );

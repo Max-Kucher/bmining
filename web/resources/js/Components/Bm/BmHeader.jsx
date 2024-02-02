@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const BmHeader = ({scrollToBlock, homeRef, calcRef, plansRef, faqRef}) => {
     const [showModal, setShowModal] = React.useState(false);
@@ -11,26 +12,38 @@ const BmHeader = ({scrollToBlock, homeRef, calcRef, plansRef, faqRef}) => {
                     <nav>
                         <ul>
                             <li>
-                                <a onClick={() => scrollToBlock(homeRef)} href="#">Home</a>
+                                <a onClick={() => {
+                                    scrollToBlock(homeRef)
+                                    setShowModal(false)
+                                }} href="#">Home</a>
                             </li>
                             <li>
-                                <a onClick={() => scrollToBlock(calcRef)} href="#">Сalculator</a>
+                                <a onClick={() => {
+                                    scrollToBlock(calcRef)
+                                    setShowModal(false)
+                                }} href="#">Сalculator</a>
                             </li>
                             <li>
-                                <a onClick={() => scrollToBlock(plansRef)} href="#">Сontacts</a>
+                                <a onClick={() => {
+                                    scrollToBlock(plansRef)
+                                    setShowModal(false)
+                                }} href="#">Сontacts</a>
                             </li>
                             <li>
-                                <a onClick={() => scrollToBlock(faqRef)} href="#">FAQ</a>
+                                <a onClick={() => {
+                                    scrollToBlock(faqRef)
+                                    setShowModal(false)
+                                }} href="#">FAQ</a>
                             </li>
                         </ul>
                     </nav>
                     <div className="header-btns">
-                        <button type="button" className="login">LOGIN
+                        <Link to={"/login"} className="login link">LOGIN
                             <img src="/assets/icons/arrow-up.png" alt="LOGIN"/>
-                        </button>
-                        <button type="button" className="sign-up">SING UP
+                        </Link>
+                        <Link to={"/register"} className="sign-up link">SING UP
                             <img src="/assets/icons/arrow-up.png" alt="SING UP"/>
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -53,12 +66,12 @@ const BmHeader = ({scrollToBlock, homeRef, calcRef, plansRef, faqRef}) => {
                     </ul>
                 </nav>
                 <div className="header-btns">
-                    <button type="button" className="login">LOGIN
+                    <Link to={"/login"} className="login link">LOGIN
                         <img src="/assets/icons/arrow-up.png" alt="LOGIN"/>
-                    </button>
-                    <button type="button" className="sign-up">SING UP
+                    </Link>
+                    <Link to={"/register"} className="sign-up link">SING UP
                         <img src="/assets/icons/arrow-up.png" alt="SING UP"/>
-                    </button>
+                    </Link>
                 </div>
                 <button onClick={() => setShowModal(true)} className="burger" id="openModalBtn">
                     <img className="mob" src="/assets/icons/bur.svg" alt="burger"/>

@@ -116,10 +116,31 @@ section {
     cursor: pointer;
     transition: all ease-in-out 0.3s;
 }
+.container .header-btns .link {
+    background-color: transparent;
+    padding: 7.5px 9px 7.5px 32px;
+    border: 1px solid #3850fb;
+    border-radius: 100px;
+    font-size: 16px;
+    color: #3850fb;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
 .container .header-btns button img {
     width: 38px;
 }
+.container .header-btns .link img {
+    width: 38px;
+}
 .container .header-btns button:hover {
+    background: linear-gradient(0deg, #91a4fd, #91a4fd),
+    linear-gradient(169.62deg, #a2b5fe -91.03%, #b7cbfe 26.78%);
+}
+.container .header-btns .link:hover {
     background: linear-gradient(0deg, #91a4fd, #91a4fd),
     linear-gradient(169.62deg, #a2b5fe -91.03%, #b7cbfe 26.78%);
 }
