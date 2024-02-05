@@ -215,7 +215,7 @@ return [
     'electrum' => [
         'confirmations' => 3, # confirations count for accept payment
         'host' => '127.0.0.1', # Electrum host
-        'port' => '7777',
+        'port' => '37331',
         'user' => 'user',
         'password' => 'aOnTdAvzxaBnCn4bG1yrRw==', # Electrum JSON RPC password
         'wallets_dir_path' => __DIR__ . "/../wallets", # wallet storage path

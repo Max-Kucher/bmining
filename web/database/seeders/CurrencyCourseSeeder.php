@@ -22,7 +22,7 @@ class CurrencyCourseSeeder extends Seeder
             'to' => 'USD',
         ],
             [
-                'value' => 2700000,
+                'value' => 4300000,
             ]);
 
         UpdateCurrencyCourse::dispatch();

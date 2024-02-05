@@ -11,12 +11,23 @@ use Illuminate\Support\Facades\Log;
 
 class ElectrumHelper
 {
+    /**
+     * @return string
+     * @throws \Exception
+     */
     static function findOrGenerateAddress(): string
     {
         $address = CryptoAddress::findOldestUnusedBtc(AddressType::BTC);
         if ($address === null) {
             $generated = false;
-            [$electrumApi, $walletPath, $password] = self::getElectrumInstance();
+
+//            try {
+                [$electrumApi, $walletPath, $password] = self::getElectrumInstance();
+//            } catch (\Throwable $e) {
+//                throw $e;
+//                dd($e->getMessage());
+//            }
+
             for ($i = 0; $i < 3; $i++) {
                 try {
                     $res = $electrumApi->loadWallet($walletPath, $password);

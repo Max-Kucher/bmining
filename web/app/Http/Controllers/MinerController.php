@@ -56,7 +56,6 @@ class MinerController extends Controller
             'sum' => $depositAmout->getAmount(),
         ];
 
-
         if ($paymentMethod === 'btc') {
             try {
                 $address = ElectrumHelper::findOrGenerateAddress();

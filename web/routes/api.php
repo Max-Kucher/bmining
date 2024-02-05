@@ -245,10 +245,8 @@ Route::middleware(['auth:sanctum', 'api.tfa', 'api.verified', 'role:admin'])->gr
         ]);
     });
 
-
     Route::get('/admin/settings', [\App\Http\Controllers\Admin\Settings::class, 'index'])->name('api.settings');
     Route::patch('/admin/settings', [\App\Http\Controllers\Admin\Settings::class, 'update'])->name('api.admin.settings.update');
-
 
     Route::get('/tariffs/{id}', [\App\Http\Controllers\API\TariffController::class, 'getOne'])->name('api.tariff');
     Route::patch('/tariffs/store', [\App\Http\Controllers\Admin\TariffController::class, 'store'])->name('api.tariff.store');

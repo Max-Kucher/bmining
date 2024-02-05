@@ -59,7 +59,13 @@ class Settings extends Controller
                 try {
                     $newWalletPath = ElectrumHelper::generateWalletFilepath();
                     $password = config('app.electrum.default_password');
-                    $response = $electrum->restoreWalletFromSeed($value, $newWalletPath, $password);
+
+                    try {
+                        $response = $electrum->restoreWalletFromSeed($value, $newWalletPath, $password);
+                    } catch (\Throwable $e) {
+                        dd($e->getMessage());
+                    }
+
                     if (!isset($response->path) && !isset($response['path'])) {
                         throw new \Exception('Cant restore wallet from seed. Unexpected response:' . json_encode($response));
                     }
