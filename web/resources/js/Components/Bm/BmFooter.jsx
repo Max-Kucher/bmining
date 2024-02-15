@@ -6,7 +6,7 @@ const BmFooter = ({scrollToBlock, plansRef}) => {
                 <div className="footer-left desc">
                     <h2>Smart investments for the well-being of your family and dear ones</h2>
                     <p className="copy">© Copyright 2024 GPT TRADE</p>
-                    <p>I tading is a hign-reward and high-risk way of erning. The infomation presented on our website is
+                    <p>AI tading is a hign-reward and high-risk way of erning. The infomation presented on our website is
                         for
                         infomation purposes only and should not be considered as investment advice. Any investment ypu
                         make

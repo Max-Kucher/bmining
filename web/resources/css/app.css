@@ -147,8 +147,7 @@ section {
 .container .first {
     background-image: url("/assets/home-main.png") !important;
     background-repeat: no-repeat !important;
-    background-position: right !important;
-    background-position-x: 840px !important;
+    background-position: right 15% bottom 80% !important;
     padding: 0px 141px;
 }
 .container .first-top {
@@ -364,14 +363,14 @@ section {
 }
 .container .revs-top {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     gap: 15px;
 }
 .container .revs-top .card {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    max-width: 387.83px;
+    max-width: 33.3333%;
     padding: 136px 29px 54px;
     margin-top: 132px;
     position: relative;
@@ -457,14 +456,15 @@ section {
 }
 .container .money-top {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     gap: 15px;
 }
 .container .money-top .card {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    max-width: 387.83px;
+    max-width: 33.3333%;
+    width: 33.3333%;
     padding: 30px;
     margin-top: 132px;
     position: relative;
@@ -648,6 +648,10 @@ section {
 
     .header-btns {
         display: none !important;
+    }
+
+    .container .first {
+        background-position: right 1000% bottom 45% !important;
     }
 
     .first .robo {
